@@ -33,13 +33,12 @@ aside div {
 
 
 /* Sidebar Header */
-aside div:first-child {
+.pic {
   text-align: center;
 }
 
-aside div:first-child p {
+.words {
   margin-top: 10px;
-
   font-size: 14px;
 }
 
@@ -70,7 +69,7 @@ header form {
 
 
 
-Right Section Buttons
+
 header div:last-child > div {
   display: flex;
   align-items: center;
