@@ -22,13 +22,11 @@ aside {
   overflow-y: auto;
 }
 
-aside a {
+/** white text */
+.text {
   color: white;
   text-decoration: none;
-}
-
-aside div {
-  padding: 20px;
+  text-align: center;
 }
 
 
@@ -43,15 +41,9 @@ aside div {
 }
 
 /* Sidebar User Account */
-aside div:nth-child(2) {
+.section {
   text-align: center;
   margin-top: 20px;
-}
-
-/* Main Section Styles */
-section {
-  margin-left: 250px;
-  padding: 20px;
 }
 
 /* Header Styles */
@@ -70,12 +62,6 @@ header form {
 
 
 
-header div:last-child > div {
-  display: flex;
-  align-items: center;
-}
-
-/* Account Dropdown and Buttons */
 header div:last-child > div > div {
   display: none;
   position: absolute;
@@ -168,28 +154,13 @@ main > div:nth-child(3) button {
   cursor: pointer;
 }
 
-/* Data and Map in Revenue by Location */
-main > div:nth-child(3) > div > div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-main > div:nth-child(3) > div > div > div {
-  flex: 1;
-}
 
 /* Grid Styles */
-main > div:nth-child(4) {
+.pics  {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   margin-top: 30px;
-}
-
-/* Impressions and Traffic Cards */
-main > div:nth-child(4) > div h3 {
-  font-size: 24px;
 }
 
 main > div:nth-child(4) > div > div {
@@ -199,27 +170,6 @@ main > div:nth-child(4) > div > div {
   margin-top: 20px;
 }
 
-main > div:nth-child(4) > div > div h5 {
-  font-size: 14px;
-}
-
-main > div:nth-child(4) > div > div h2 {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-main > div:nth-child(4) > div > div img {
-  max-width: 50%;
-  margin-right: 0%;
-}
-
-/* Revenue by Location 2 and Order Statistics Cards */
-main > div:nth-child(5) {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 20px;
-  margin-top: 30px;
-}
 
 /* Additional Styling */
 button {
