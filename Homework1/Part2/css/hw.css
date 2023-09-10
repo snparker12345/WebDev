@@ -62,7 +62,7 @@ header form {
 
 
 
-header div:last-child > div > div {
+.dropdown {
   display: none;
   position: absolute;
   background-color: white;
@@ -75,83 +75,12 @@ header div:last-child > div:hover > div {
   display: block;
 }
 
-/* Styling for dropdown items */
-header div:last-child > div > div ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-header div:last-child > div > div ul li a {
-  display: block;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: #333;
-}
-
-/* Settings and Notifications Dropdowns */
-header div:last-child > div > div h6 {
-  font-weight: bold;
-  padding: 10px 20px;
-  background-color: white;
-}
-
-/* Badge for Messages Dropdown */
-header div:last-child > div:nth-child(4) > button > span {
-  background-color: #ff5f5f;
-  color: white;
-  border-radius: 50%;
-  padding: 4px 8px;
-  font-size: 12px;
-  margin-left: 4px;
-}
-
 /* Main Content Styles */
 main {
   background-color: white;
   padding: 20px;
   border-radius: 4px;
   /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
-}
-
-/* Dashboard Info Boxes */
-main div > div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-main div > div h5 {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-main div > div h5:last-child {
-  color: #4CAF50;
-}
-
-/* Revenue by Location */
-main > div:nth-child(3) {
-  margin-top: 30px;
-}
-
-main > div:nth-child(3) h4 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-main > div:nth-child(3) h5 {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-main > div:nth-child(3) button {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  cursor: pointer;
 }
 
 
@@ -161,13 +90,6 @@ main > div:nth-child(3) button {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   margin-top: 30px;
-}
-
-main > div:nth-child(4) > div > div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
 }
 
 
