@@ -1,0 +1,71 @@
+.container{
+    background: black;
+    width: 300px;
+    margin: auto;
+    outline: black;
+  }
+
+  .container_new{
+    background: black;
+    width: 300px;
+
+    margin: auto;
+    outline: black;
+  }
+  
+  .display{
+    width: 100%;
+    background-color: rgb(163, 159, 177);
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 48px;
+  }
+
+  .box {
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100px;
+    }
+
+  .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50%
+  }
+  
+  button {
+    flex:1 25%;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 50%
+  }
+  
+  .btn-number {
+    background-color:white;
+  }
+  
+  .btn-operator {
+    background-color:red;
+  }
+  
+  .btn-equals {
+    background-color:red;
+  }
+  
+  .btn-clear {
+     background-color:red;
+  }
+  
+  text {
+    color: white;
+  }
+  button:focus {
+    outline: none;
+  }
+  
